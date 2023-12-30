@@ -37,9 +37,11 @@
   },
   {
    "cell_type": "code",
-
+<<<<<<< HEAD
+   "execution_count": 410,
+=======
    "execution_count": 32,
-
+>>>>>>> origin/main
    "id": "2e6163b6-fe89-4e7d-97e3-616a05cc2fe5",
    "metadata": {},
    "outputs": [
@@ -47,9 +49,43 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-
+<<<<<<< HEAD
       "Collecting github"
-
+=======
+      "Collecting github\n",
+      "  Using cached github-1.2.7-py3-none-any.whl (15 kB)\n",
+      "Collecting aiohttp==3.8.1 (from github)\n",
+      "  Using cached aiohttp-3.8.1.tar.gz (7.3 MB)\n",
+      "  Installing build dependencies: started\n",
+      "  Installing build dependencies: finished with status 'done'\n",
+      "  Getting requirements to build wheel: started\n",
+      "  Getting requirements to build wheel: finished with status 'done'\n",
+      "  Installing backend dependencies: started\n",
+      "  Installing backend dependencies: finished with status 'done'\n",
+      "  Preparing metadata (pyproject.toml): started\n",
+      "  Preparing metadata (pyproject.toml): finished with status 'done'\n",
+      "Requirement already satisfied: typing-extensions in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from github) (4.7.1)\n",
+      "Requirement already satisfied: attrs>=17.3.0 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from aiohttp==3.8.1->github) (23.1.0)\n",
+      "Requirement already satisfied: charset-normalizer<3.0,>=2.0 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from aiohttp==3.8.1->github) (2.0.4)\n",
+      "Collecting multidict<7.0,>=4.5 (from aiohttp==3.8.1->github)\n",
+      "  Using cached multidict-6.0.4-cp311-cp311-win_amd64.whl (28 kB)\n",
+      "Collecting async-timeout<5.0,>=4.0.0a3 (from aiohttp==3.8.1->github)\n",
+      "  Using cached async_timeout-4.0.3-py3-none-any.whl.metadata (4.2 kB)\n",
+      "Collecting yarl<2.0,>=1.0 (from aiohttp==3.8.1->github)\n",
+      "  Using cached yarl-1.9.4-cp311-cp311-win_amd64.whl.metadata (32 kB)\n",
+      "Collecting frozenlist>=1.1.1 (from aiohttp==3.8.1->github)\n",
+      "  Using cached frozenlist-1.4.1-cp311-cp311-win_amd64.whl.metadata (12 kB)\n",
+      "Collecting aiosignal>=1.1.2 (from aiohttp==3.8.1->github)\n",
+      "  Using cached aiosignal-1.3.1-py3-none-any.whl (7.6 kB)\n",
+      "Requirement already satisfied: idna>=2.0 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from yarl<2.0,>=1.0->aiohttp==3.8.1->github) (3.4)\n",
+      "Using cached async_timeout-4.0.3-py3-none-any.whl (5.7 kB)\n",
+      "Using cached frozenlist-1.4.1-cp311-cp311-win_amd64.whl (50 kB)\n",
+      "Using cached yarl-1.9.4-cp311-cp311-win_amd64.whl (76 kB)\n",
+      "Building wheels for collected packages: aiohttp\n",
+      "  Building wheel for aiohttp (pyproject.toml): started\n",
+      "  Building wheel for aiohttp (pyproject.toml): finished with status 'error'\n",
+      "Failed to build aiohttp\n"
+>>>>>>> origin/main
      ]
     },
     {
@@ -173,7 +209,7 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-
+<<<<<<< HEAD
       "\n",
       "  Using cached github-1.2.7-py3-none-any.whl (15 kB)\n",
       "Collecting aiohttp==3.8.1 (from github)\n",
@@ -373,14 +409,47 @@
       "  Downloading threadpoolctl-3.2.0-py3-none-any.whl (15 kB)\n",
       "Installing collected packages: threadpoolctl, scikit-learn\n",
       "Successfully installed scikit-learn-1.3.2 threadpoolctl-3.2.0\n"
-
+=======
+      "Requirement already satisfied: gEconpy in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (1.2.1)\n",
+      "Requirement already satisfied: emcee in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (3.1.4)\n",
+      "Requirement already satisfied: arviz in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (0.16.1)\n",
+      "Requirement already satisfied: matplotlib in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (3.8.2)\n",
+      "Requirement already satisfied: numba in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (0.58.1)\n",
+      "Requirement already satisfied: numpy in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (1.26.2)\n",
+      "Requirement already satisfied: pyparsing in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (3.1.1)\n",
+      "Requirement already satisfied: scipy in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (1.11.4)\n",
+      "Requirement already satisfied: statsmodels in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (0.14.1)\n",
+      "Requirement already satisfied: sympy in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (1.12)\n",
+      "Requirement already satisfied: setuptools>=60.0.0 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from arviz->gEconpy) (68.2.2)\n",
+      "Requirement already satisfied: packaging in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from arviz->gEconpy) (23.1)\n",
+      "Requirement already satisfied: pandas>=1.3.0 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from arviz->gEconpy) (2.1.4)\n",
+      "Requirement already satisfied: xarray>=0.21.0 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from arviz->gEconpy) (2023.12.0)\n",
+      "Requirement already satisfied: h5netcdf>=1.0.2 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from arviz->gEconpy) (1.3.0)\n",
+      "Requirement already satisfied: typing-extensions>=4.1.0 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from arviz->gEconpy) (4.7.1)\n",
+      "Requirement already satisfied: xarray-einstats>=0.3 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from arviz->gEconpy) (0.6.0)\n",
+      "Requirement already satisfied: contourpy>=1.0.1 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from matplotlib->gEconpy) (1.2.0)\n",
+      "Requirement already satisfied: cycler>=0.10 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from matplotlib->gEconpy) (0.12.1)\n",
+      "Requirement already satisfied: fonttools>=4.22.0 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from matplotlib->gEconpy) (4.47.0)\n",
+      "Requirement already satisfied: kiwisolver>=1.3.1 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from matplotlib->gEconpy) (1.4.5)\n",
+      "Requirement already satisfied: pillow>=8 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from matplotlib->gEconpy) (10.1.0)\n",
+      "Requirement already satisfied: python-dateutil>=2.7 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from matplotlib->gEconpy) (2.8.2)\n",
+      "Requirement already satisfied: llvmlite<0.42,>=0.41.0dev0 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from numba->gEconpy) (0.41.1)\n",
+      "Requirement already satisfied: patsy>=0.5.4 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from statsmodels->gEconpy) (0.5.4)\n",
+      "Requirement already satisfied: mpmath>=0.19 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from sympy->gEconpy) (1.3.0)\n",
+      "Requirement already satisfied: h5py in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from h5netcdf>=1.0.2->arviz->gEconpy) (3.10.0)\n",
+      "Requirement already satisfied: pytz>=2020.1 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from pandas>=1.3.0->arviz->gEconpy) (2023.3.post1)\n",
+      "Requirement already satisfied: tzdata>=2022.1 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from pandas>=1.3.0->arviz->gEconpy) (2023.3)\n",
+      "Requirement already satisfied: six in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from patsy>=0.5.4->statsmodels->gEconpy) (1.16.0)\n"
+>>>>>>> origin/main
      ]
     }
    ],
    "source": [
-
+<<<<<<< HEAD
     "#Packages download\n",
-
+=======
+    "# Packages download\n",
+>>>>>>> origin/main
     "!pip install github\n",
     "!pip install pandas -q\n",
     "!pip install pandas_datareader -q\n",
@@ -389,12 +458,52 @@
     "!pip install wbgapi -q\n",
     "!pip install wbdata -q\n",
     "!pip install requests beautifulsoup4 pandas -q\n",
-
+<<<<<<< HEAD
     "!pip install gEconpy\n",
     "!pip install joblib\n",
     "!pip install tsdisagg -q\n",
     "!pip install scikit-learn"
-
+=======
+    "!pip install gEconpy "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "bd5235dc-6cab-41ad-8271-b5d845eb71eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "'git' is not recognized as an internal or external command,\n",
+      "operable program or batch file.\n",
+      "'git' is not recognized as an internal or external command,\n",
+      "operable program or batch file.\n",
+      "'git' is not recognized as an internal or external command,\n",
+      "operable program or batch file.\n",
+      "'git' is not recognized as an internal or external command,\n",
+      "operable program or batch file.\n",
+      "'git' is not recognized as an internal or external command,\n",
+      "operable program or batch file.\n",
+      "'git' is not recognized as an internal or external command,\n",
+      "operable program or batch file.\n",
+      "'git' is not recognized as an internal or external command,\n",
+      "operable program or batch file.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# login and link to our shared repository available on GitHub\n",
+    "!git init -q\n",
+    "!git config --global user.email \"e.lando2001@gmail.com\" \n",
+    "!git config --global user.name \"EliaLand\"\n",
+    "!git add SaudiArabia_RBC_estimation.ipynb  \n",
+    "!git commit -m \"Initial commit\"\n",
+    "!git remote add origin https://github.com/EliaLand/Uni-projects.git\n",
+    "!git push -u origin main "
+>>>>>>> origin/main
    ]
   },
   {
@@ -423,6 +532,7 @@
     "\n",
     "| Step | Imported? | Season adjusted? | Currency adjusted? | Variable | Variable Name | Shortcut | Note | Source | Link | Date |\n",
     "|------|-----------|-------------------|---------------------|----------|---------------|----------|------|--------|------|------|\n",
+<<<<<<< HEAD
     "| 1    | Yes       |        Yes        | millions USD               | Y       | Real GDP      | NGDPRSAXDCSAQ | Domestic Currency, SA, Quarterly | FRED | [Link](https://fred.stlouisfed.org/series/NGDPRSAXDCSAQ) | 2010 - current |\n",
     "| 2    | Yes       |        Yes           | millions USD                | C        | Real Private Sector Final Consumption Expenditure | NCPRNSAXDCSAQ | Domestic Currency, Not SA, Quarterly | FRED | [Link](https://fred.stlouisfed.org/series/NCPRNSAXDCSAQ) | 2010 - current |\n",
     "| 3    | Yes       | Yes          | millions USD                | I       | Gross Fixed Capital Formation | NE.GDI.FTOT.CD | Current US Dollar, Annual | WorldBank | [Link](https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=SA) | 1968-2022 |\n",
@@ -433,6 +543,18 @@
     "| 8    | Yes       |                   | In %                | r       | Short Term Bond Rate | Excel attached | Quarterly average of interbank rate | Saudi Central Bank | [Link](https://www.sama.gov.sa/ar-sa/EconomicReports/Pages/report.aspx?cid=118) | 2007-current |\n",
     "| 9    | Yes       |                   | Riyal               | K       | Capital Stock at Constant National Prices | RKNANPSAA666NRUG | Millions of 2017 U.S. Dollars, Not SA, Annual | FRED | [Link](https://fred.stlouisfed.org/series/RKNANPSAA666NRUG) | 1970-2019 |\n",
     "| 10   | Yes       |                   | In %                | CA      | Current Account | BN.CAB.XOKA.GD.ZS | Current account balance % of GDP, Annual | Worldbank | [Link](https://data.worldbank.org/indicator/BN.CAB.XOKA.GD.ZS?locations=SA) | 1970-2021 |\n",
+=======
+    "| 1    | Yes       |        Yes        | NO NEED IT IS USD F*CK FRED               | Yt       | Real GDP      | NGDPRSAXDCSAQ | Domestic Currency, SA, Quarterly | FRED | [Link](https://fred.stlouisfed.org/series/NGDPRSAXDCSAQ) | 2010 - current |\n",
+    "| 2    | Yes       |                   | Yes               | C        | Real Private Sector Final Consumption Expenditure | NCPRNSAXDCSAQ | Domestic Currency, Not SA, Quarterly | FRED | [Link](https://fred.stlouisfed.org/series/NCPRNSAXDCSAQ) | 2010 - current |\n",
+    "| 3    | Yes       | I tried           | USD                 | It       | Gross Fixed Capital Formation | NE.GDI.FTOT.CD | Current US Dollar, Annual | WorldBank | [Link](https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=SA) | 1968-2022 |\n",
+    "| 4    | Yes       | No                | USD                 | TBt      | Trade Balance | BN.GSR.GNFS.CD | Net trade in goods and services (BOP, current US$) | World Bank | [Link](https://data.worldbank.org/indicator/BN.GSR.GNFS.CD?locations=SA) | 1971-2022 |\n",
+    "| 5    | No        | Fuck this         | I am adjusted       | Nt       | Average Hours of Work for Employed Persons | Excel attached | Measures the average weekly working hours of workers (15 years and over) | General Statistics Authority | [Link](https://database.stats.gov.sa/home/indicator/999118) | Q2 2016-Q2 2023 |\n",
+    "| 6    | No        |                   |                     | wt       | Average Monthly Wages for Paid Employees | Excel attached | The sum of the monthly wages to the total of employed persons for wages | General Statistics Authority | [Link](https://database.stats.gov.sa/home/indicator/999118) | Q2 2016-Q2 2023 |\n",
+    "| 7    | Yes       |                   | In %                |          | Real Long Term Bond Rate | - | 10-year government development bond yield, Quarterly | National Statistics, Saudi Central Bank | [Link](https://www.sama.gov.sa/en-US/GovtSecurity/pages/governmentdevelopmentbonds.aspx), [Specific Bond (19Jan2029)](https://cbonds.com/bonds/461405/) | Q1999-Q32007, Past 3 yrs |\n",
+    "| 8    | Yes       |                   | In %                | rt       | Short Term Bond Rate | Excel attached | Quarterly average of interbank rate | Saudi Central Bank | [Link](https://www.sama.gov.sa/ar-sa/EconomicReports/Pages/report.aspx?cid=118) | 2007-current |\n",
+    "| 9    | Yes       |                   | Riyal               | Kt       | Capital Stock at Constant National Prices | RKNANPSAA666NRUG | Millions of 2017 U.S. Dollars, Not SA, Annual | FRED | [Link](https://fred.stlouisfed.org/series/RKNANPSAA666NRUG) | 1970-2019 |\n",
+    "| 10   | Yes       |                   | In %                | CAt      | Current Account | BN.CAB.XOKA.GD.ZS | Current account balance % of GDP, Annual | Worldbank | [Link](https://data.worldbank.org/indicator/BN.CAB.XOKA.GD.ZS?locations=SA) | 1970-2021 |\n",
+>>>>>>> origin/main
     "| 11   | Yes       |                   | In %                |          | CPI           | Consumer Prices | FP.CPI.TOTL.ZG | % Annual | Worldbank | [Link](https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SA) | 1964-2021 |\n",
     "| 12   | Yes       |                   |                     | ER       | Exchange Rate  | - | The Saudi riyal has been at a fixed rate to the US dollar since June 1986 (SAR 3.7500 per USD) | Constant | - | - |\n",
     "| 13   | Yes       | USD               |                     | Oil      | Crude Oil, Brent Prices | Excel attached | Crude oil, average spot price of Brent, Dubai and West Texas Intermediate, equally weighed, Monthly | Worldbank | [Link](https://www.worldbank.org/en/research/commodity-markets) | - |\n"
@@ -548,11 +670,15 @@
     "df1 = pd.read_csv('SA_gdp_seasonally_adjusted.csv', parse_dates=['DATE'])\n",
     "#Save for merging later \n",
     "df1.to_csv('SA_gdp_seasonally_adjusted.csv', index=False)\n",
-
+<<<<<<< HEAD
     "#Rename the columns\n",
     "df1.columns = ['Date', 'Y']\n",
     "#Display the DataFrame\n",
-
+=======
+    "# Rename the columns\n",
+    "df1.columns = ['Date', 'Y']\n",
+    "# Display the DataFrame\n",
+>>>>>>> origin/main
     "df1.head()"
    ]
   },
@@ -603,9 +729,11 @@
   },
   {
    "cell_type": "code",
-
+<<<<<<< HEAD
    "execution_count": 1,
-
+=======
+   "execution_count": 49,
+>>>>>>> origin/main
    "id": "a5fb69b4-4076-4d0c-9e51-62bd40bc7298",
    "metadata": {},
    "outputs": [
@@ -1026,6 +1154,12 @@
        "  <thead>\n",
        "    <tr style=\"text-align: right;\">\n",
        "      <th></th>\n",
+<<<<<<< HEAD
+=======
+       "      <th>Y</th>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+>>>>>>> origin/main
        "      <th>Date</th>\n",
        "      <th>Ex_Rate</th>\n",
        "      <th>Y</th>\n",
@@ -1067,6 +1201,7 @@
        "</div>"
       ],
       "text/plain": [
+<<<<<<< HEAD
        "        Date  Ex_Rate         Y\n",
        "0 2010-01-01     3.75  472498.1\n",
        "1 2010-04-01     3.75  487268.9\n",
@@ -1076,6 +1211,18 @@
       ]
      },
      "execution_count": 201,
+=======
+       "                   Y\n",
+       "Date                \n",
+       "2010-01-01  472498.1\n",
+       "2010-04-01  487268.9\n",
+       "2010-07-01  492963.7\n",
+       "2010-10-01  521219.1\n",
+       "2011-01-01  535829.9"
+      ]
+     },
+     "execution_count": 49,
+>>>>>>> origin/main
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -1097,6 +1244,457 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
+   "execution_count": null,
+   "id": "119a1edc-32fc-4211-b4ef-dcd2a86a35ab",
+=======
+   "execution_count": 62,
+   "id": "160e8004-ed10-49bc-a3f8-f627716227d6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#temporarely rename the dataset to better fit our helper functions\n",
+    "df = pd.read_csv('SA_gdp_seasonally_adjusted.csv', parse_dates=['DATE'])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "9689a5da-bb4c-4823-ab1d-a4260f623f55",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# We include some helper functions\n",
+    "def make_var_names(var, n_lags, reg):\n",
+    "    names = [f'L1.{var}']\n",
+    "    for lag in range(1, n_lags + 1):\n",
+    "        names.append(f'D{lag}L1.{var}')\n",
+    "    if reg != 'n':\n",
+    "        names.append('Constant')\n",
+    "    if 't' in reg:\n",
+    "        names.append('Trend')\n",
+    "\n",
+    "    return names\n",
+    "\n",
+    "\n",
+    "def ADF_test_summary(df, maxlag=None, autolag='BIC', missing='error'):\n",
+    "    if missing == 'error':\n",
+    "        if df.isna().any().any():\n",
+    "            raise ValueError(\"df has missing data; handle it or pass missing='drop' to automatically drop it.\")\n",
+    "            \n",
+    "    if isinstance(df, pd.Series):\n",
+    "        df = df.to_frame()\n",
+    "        \n",
+    "    for series in df.columns:\n",
+    "        data = df[series].copy()\n",
+    "        if missing == 'drop':\n",
+    "            data.dropna(inplace=True)\n",
+    "            \n",
+    "        print(series.center(110))\n",
+    "        print(('=' * 110))\n",
+    "        line = 'Specification' + ' ' * 15 + 'Coeff' + ' ' * 10 + 'Statistic' + ' ' * 5 + 'P-value' + ' ' * 6 + 'Lags' + ' ' * 6 + '1%'\n",
+    "        line += ' ' * 10 + '5%' + ' ' * 8 + '10%'\n",
+    "        print(line)\n",
+    "        print(('-' * 110))\n",
+    "        spec_fixed = False\n",
+    "        for i, (name, reg) in enumerate(zip(['Constant and Trend', 'Constant Only', 'No Constant'], ['ct', 'c', 'n'])):\n",
+    "            stat, p, crit, regresult = sm.tsa.adfuller(data, regression=reg, regresults=True, maxlag=maxlag,\n",
+    "                                                       autolag=autolag)\n",
+    "            n_lag = regresult.usedlag\n",
+    "            gamma = regresult.resols.params[0]\n",
+    "            names = make_var_names(series, n_lag, reg)\n",
+    "            reg_coefs = pd.Series(regresult.resols.params, index=names)\n",
+    "            reg_tstat = pd.Series(regresult.resols.tvalues, index=names)\n",
+    "            reg_pvals = pd.Series(regresult.resols.pvalues, index=names)\n",
+    "\n",
+    "            line = f'{name:<21}{gamma:13.3f}{stat:15.3f}{p:13.3f}{n_lag:11}{crit[\"1%\"]:10.3f}{crit[\"5%\"]:12.3f}{crit[\"10%\"]:11.3f}'\n",
+    "            print(line)\n",
+    "\n",
+    "            for coef in reg_coefs.index:\n",
+    "                if coef in name:\n",
+    "                    line = f\"\\t{coef:<13}{reg_coefs[coef]:13.3f}{reg_tstat[coef]:15.3f}{reg_pvals[coef]:13.3f}\"\n",
+    "                    print(line)\n",
+    "                    \n",
+    "def plot_sm_results(res, extra_data=None, filter_output='predicted', var_names=None):\n",
+    "    fig = plt.figure(figsize=(14,8))\n",
+    "    \n",
+    "    endog_vars = res.data.ynames\n",
+    "    states = res.states.predicted.columns\n",
+    "    if var_names:\n",
+    "        states = [x for x in states if x in var_names]\n",
+    "    \n",
+    "    gs, plot_locs = gp.prepare_gridspec_figure(n_cols=3, n_plots=len(states))\n",
+    "    \n",
+    "    for i, (name, loc) in enumerate(zip(states, plot_locs)):\n",
+    "        axis = fig.add_subplot(gs[loc])\n",
+    "\n",
+    "        mu = getattr(res.states, filter_output)[name]\n",
+    "        sigma = getattr(res.states, filter_output + '_cov').loc[name, name]\n",
+    "\n",
+    "        upper = mu + 1.98 * np.sqrt(sigma + 1e-8)\n",
+    "        lower = mu - 1.98 * np.sqrt(sigma + 1e-8)\n",
+    "\n",
+    "        start_idx = 1 if filter_output == 'predicted' else 0\n",
+    "        axis.plot(res.data.dates, mu.values[start_idx:], label='Predicted')\n",
+    "        axis.fill_between(res.data.dates, lower.values[start_idx:], upper.values[start_idx:], color='tab:blue', alpha=0.25)\n",
+    "\n",
+    "        if name in endog_vars:\n",
+    "            res.data.orig_endog[name].plot(label='Data', ax=axis)\n",
+    "        \n",
+    "        elif extra_data is not None:\n",
+    "            if name in extra_data.columns:\n",
+    "                extra_data[name].plot(label='Data', ax=axis)\n",
+    "\n",
+    "        axis.set(title=name)\n",
+    "    fig.tight_layout()\n",
+    "    title_text = 'One-Step Ahead' if filter_output =='predicted' else filter_output.title()\n",
+    "    fig.suptitle(f'Kalman {title_text} Predictions', y=1.05)\n",
+    "    fig.axes[1].legend(bbox_to_anchor=(0.5, 0.98), loc='lower center', bbox_transform=fig.transFigure, ncols=2)\n",
+    "\n",
+    "    plt.show()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "fc8cc11c-34c4-4cba-abc4-90dbcfb99acc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# we first describe de variables characterizing our model\n",
+    "vars_to_plot = ['A', 'C', 'I', 'L', 'Y', 'K', 'lambda', 'r', 'w']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "769acd71-34a1-496e-ab71-1072438fb474",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Requirement already satisfied: gEconpy in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (1.2.1)\n",
+      "Requirement already satisfied: emcee in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (3.1.4)\n",
+      "Requirement already satisfied: arviz in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (0.16.1)\n",
+      "Requirement already satisfied: matplotlib in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (3.8.2)\n",
+      "Requirement already satisfied: numba in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (0.58.1)\n",
+      "Requirement already satisfied: numpy in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (1.26.2)\n",
+      "Requirement already satisfied: pyparsing in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (3.1.1)\n",
+      "Requirement already satisfied: scipy in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (1.11.4)\n",
+      "Requirement already satisfied: statsmodels in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (0.14.1)\n",
+      "Requirement already satisfied: sympy in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from gEconpy) (1.12)\n",
+      "Requirement already satisfied: setuptools>=60.0.0 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from arviz->gEconpy) (68.2.2)\n",
+      "Requirement already satisfied: packaging in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from arviz->gEconpy) (23.1)\n",
+      "Requirement already satisfied: pandas>=1.3.0 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from arviz->gEconpy) (2.1.4)\n",
+      "Requirement already satisfied: xarray>=0.21.0 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from arviz->gEconpy) (2023.12.0)\n",
+      "Requirement already satisfied: h5netcdf>=1.0.2 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from arviz->gEconpy) (1.3.0)\n",
+      "Requirement already satisfied: typing-extensions>=4.1.0 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from arviz->gEconpy) (4.7.1)\n",
+      "Requirement already satisfied: xarray-einstats>=0.3 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from arviz->gEconpy) (0.6.0)\n",
+      "Requirement already satisfied: contourpy>=1.0.1 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from matplotlib->gEconpy) (1.2.0)\n",
+      "Requirement already satisfied: cycler>=0.10 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from matplotlib->gEconpy) (0.12.1)\n",
+      "Requirement already satisfied: fonttools>=4.22.0 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from matplotlib->gEconpy) (4.47.0)\n",
+      "Requirement already satisfied: kiwisolver>=1.3.1 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from matplotlib->gEconpy) (1.4.5)\n",
+      "Requirement already satisfied: pillow>=8 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from matplotlib->gEconpy) (10.1.0)\n",
+      "Requirement already satisfied: python-dateutil>=2.7 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from matplotlib->gEconpy) (2.8.2)\n",
+      "Requirement already satisfied: llvmlite<0.42,>=0.41.0dev0 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from numba->gEconpy) (0.41.1)\n",
+      "Requirement already satisfied: patsy>=0.5.4 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from statsmodels->gEconpy) (0.5.4)\n",
+      "Requirement already satisfied: mpmath>=0.19 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from sympy->gEconpy) (1.3.0)\n",
+      "Requirement already satisfied: h5py in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from h5netcdf>=1.0.2->arviz->gEconpy) (3.10.0)\n",
+      "Requirement already satisfied: pytz>=2020.1 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from pandas>=1.3.0->arviz->gEconpy) (2023.3.post1)\n",
+      "Requirement already satisfied: tzdata>=2022.1 in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from pandas>=1.3.0->arviz->gEconpy) (2023.3)\n",
+      "Requirement already satisfied: six in c:\\users\\eland\\miniconda3\\envs\\macro\\lib\\site-packages (from patsy>=0.5.4->statsmodels->gEconpy) (1.16.0)\n",
+      "Collecting joblib\n",
+      "  Downloading joblib-1.3.2-py3-none-any.whl.metadata (5.4 kB)\n",
+      "Downloading joblib-1.3.2-py3-none-any.whl (302 kB)\n",
+      "   ---------------------------------------- 0.0/302.2 kB ? eta -:--:--\n",
+      "   - -------------------------------------- 10.2/302.2 kB ? eta -:--:--\n",
+      "   -- ------------------------------------ 20.5/302.2 kB 330.3 kB/s eta 0:00:01\n",
+      "   ------------ ------------------------- 102.4/302.2 kB 980.4 kB/s eta 0:00:01\n",
+      "   ------------------------------- -------- 235.5/302.2 kB 1.6 MB/s eta 0:00:01\n",
+      "   ---------------------------------------  297.0/302.2 kB 1.8 MB/s eta 0:00:01\n",
+      "   ---------------------------------------- 302.2/302.2 kB 1.4 MB/s eta 0:00:00\n",
+      "Installing collected packages: joblib\n",
+      "Successfully installed joblib-1.3.2\n"
+     ]
+    },
+    {
+     "ename": "FileNotFoundError",
+     "evalue": "[Errno 2] No such file or directory: 'RBC_basic.gcn'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mFileNotFoundError\u001b[0m                         Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[74], line 5\u001b[0m\n\u001b[0;32m      3\u001b[0m \u001b[38;5;28;01mimport\u001b[39;00m \u001b[38;5;21;01mgEconpy\u001b[39;00m \u001b[38;5;28;01mas\u001b[39;00m \u001b[38;5;21;01mge\u001b[39;00m\n\u001b[0;32m      4\u001b[0m \u001b[38;5;66;03m#we now specify the RBC model \u001b[39;00m\n\u001b[1;32m----> 5\u001b[0m rbc \u001b[38;5;241m=\u001b[39m ge\u001b[38;5;241m.\u001b[39mgEconModel(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mRBC_basic.gcn\u001b[39m\u001b[38;5;124m'\u001b[39m)\n",
+      "File \u001b[1;32m~\\miniconda3\\envs\\macro\\Lib\\site-packages\\gEconpy\\classes\\model.py:133\u001b[0m, in \u001b[0;36mgEconModel.__init__\u001b[1;34m(self, model_filepath, verbose, simplify_blocks, simplify_constants, simplify_tryreduce)\u001b[0m\n\u001b[0;32m    130\u001b[0m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mR: pd\u001b[38;5;241m.\u001b[39mDataFrame \u001b[38;5;241m=\u001b[39m \u001b[38;5;28;01mNone\u001b[39;00m\n\u001b[0;32m    131\u001b[0m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mS: pd\u001b[38;5;241m.\u001b[39mDataFrame \u001b[38;5;241m=\u001b[39m \u001b[38;5;28;01mNone\u001b[39;00m\n\u001b[1;32m--> 133\u001b[0m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mbuild(\n\u001b[0;32m    134\u001b[0m     verbose\u001b[38;5;241m=\u001b[39mverbose,\n\u001b[0;32m    135\u001b[0m     simplify_blocks\u001b[38;5;241m=\u001b[39msimplify_blocks,\n\u001b[0;32m    136\u001b[0m     simplify_constants\u001b[38;5;241m=\u001b[39msimplify_constants,\n\u001b[0;32m    137\u001b[0m     simplify_tryreduce\u001b[38;5;241m=\u001b[39msimplify_tryreduce,\n\u001b[0;32m    138\u001b[0m )\n\u001b[0;32m    140\u001b[0m \u001b[38;5;66;03m# Assign Solvers\u001b[39;00m\n\u001b[0;32m    141\u001b[0m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39msteady_state_solver \u001b[38;5;241m=\u001b[39m SteadyStateSolver(\u001b[38;5;28mself\u001b[39m)\n",
+      "File \u001b[1;32m~\\miniconda3\\envs\\macro\\Lib\\site-packages\\gEconpy\\classes\\model.py:193\u001b[0m, in \u001b[0;36mgEconModel.build\u001b[1;34m(self, verbose, simplify_blocks, simplify_constants, simplify_tryreduce)\u001b[0m\n\u001b[0;32m    158\u001b[0m \u001b[38;5;28;01mdef\u001b[39;00m \u001b[38;5;21mbuild\u001b[39m(\n\u001b[0;32m    159\u001b[0m     \u001b[38;5;28mself\u001b[39m,\n\u001b[0;32m    160\u001b[0m     verbose: \u001b[38;5;28mbool\u001b[39m,\n\u001b[1;32m   (...)\u001b[0m\n\u001b[0;32m    163\u001b[0m     simplify_tryreduce: \u001b[38;5;28mbool\u001b[39m,\n\u001b[0;32m    164\u001b[0m ) \u001b[38;5;241m-\u001b[39m\u001b[38;5;241m>\u001b[39m \u001b[38;5;28;01mNone\u001b[39;00m:\n\u001b[0;32m    165\u001b[0m \u001b[38;5;250m    \u001b[39m\u001b[38;5;124;03m\"\"\"\u001b[39;00m\n\u001b[0;32m    166\u001b[0m \u001b[38;5;124;03m    Main parsing function for the model. Build loads the GCN file, decomposes it into blocks, solves optimization\u001b[39;00m\n\u001b[0;32m    167\u001b[0m \u001b[38;5;124;03m    problems contained in each block, then extracts parameters, equations, calibrating equations, calibrated\u001b[39;00m\n\u001b[1;32m   (...)\u001b[0m\n\u001b[0;32m    190\u001b[0m \u001b[38;5;124;03m    None\u001b[39;00m\n\u001b[0;32m    191\u001b[0m \u001b[38;5;124;03m    \"\"\"\u001b[39;00m\n\u001b[1;32m--> 193\u001b[0m     raw_model \u001b[38;5;241m=\u001b[39m file_loaders\u001b[38;5;241m.\u001b[39mload_gcn(\u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mmodel_filepath)\n\u001b[0;32m    194\u001b[0m     parsed_model, prior_dict \u001b[38;5;241m=\u001b[39m gEcon_parser\u001b[38;5;241m.\u001b[39mpreprocess_gcn(raw_model)\n\u001b[0;32m    196\u001b[0m     \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39m_build_model_blocks(parsed_model, simplify_blocks)\n",
+      "File \u001b[1;32m~\\miniconda3\\envs\\macro\\Lib\\site-packages\\gEconpy\\parser\\file_loaders.py:16\u001b[0m, in \u001b[0;36mload_gcn\u001b[1;34m(gcn_path)\u001b[0m\n\u001b[0;32m      1\u001b[0m \u001b[38;5;28;01mdef\u001b[39;00m \u001b[38;5;21mload_gcn\u001b[39m(gcn_path: \u001b[38;5;28mstr\u001b[39m) \u001b[38;5;241m-\u001b[39m\u001b[38;5;241m>\u001b[39m \u001b[38;5;28mstr\u001b[39m:\n\u001b[0;32m      2\u001b[0m \u001b[38;5;250m    \u001b[39m\u001b[38;5;124;03m\"\"\"\u001b[39;00m\n\u001b[0;32m      3\u001b[0m \u001b[38;5;124;03m    Loads a model file as raw text.\u001b[39;00m\n\u001b[0;32m      4\u001b[0m \n\u001b[1;32m   (...)\u001b[0m\n\u001b[0;32m     13\u001b[0m \u001b[38;5;124;03m        Raw-text of the model file.\u001b[39;00m\n\u001b[0;32m     14\u001b[0m \u001b[38;5;124;03m    \"\"\"\u001b[39;00m\n\u001b[1;32m---> 16\u001b[0m     \u001b[38;5;28;01mwith\u001b[39;00m \u001b[38;5;28mopen\u001b[39m(gcn_path, encoding\u001b[38;5;241m=\u001b[39m\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mutf-8\u001b[39m\u001b[38;5;124m\"\u001b[39m) \u001b[38;5;28;01mas\u001b[39;00m file:\n\u001b[0;32m     17\u001b[0m         gcn_raw \u001b[38;5;241m=\u001b[39m file\u001b[38;5;241m.\u001b[39mread()\n\u001b[0;32m     18\u001b[0m     \u001b[38;5;28;01mreturn\u001b[39;00m gcn_raw\n",
+      "\u001b[1;31mFileNotFoundError\u001b[0m: [Errno 2] No such file or directory: 'RBC_basic.gcn'"
+     ]
+    }
+   ],
+   "source": [
+    "!pip install gEconpy\n",
+    "!pip install joblib\n",
+    "import gEconpy as ge\n",
+    "#we now specify the RBC model \n",
+    "rbc = ge.gEconModel('RBC_basic.gcn')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "id": "15c092f2-93f4-4257-a17b-7794d3a34db7",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ModuleNotFoundError",
+     "evalue": "No module named 'joblib'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mModuleNotFoundError\u001b[0m                       Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[71], line 2\u001b[0m\n\u001b[0;32m      1\u001b[0m get_ipython()\u001b[38;5;241m.\u001b[39mrun_line_magic(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mmatplotlib\u001b[39m\u001b[38;5;124m'\u001b[39m, \u001b[38;5;124m'\u001b[39m\u001b[38;5;124minline\u001b[39m\u001b[38;5;124m'\u001b[39m)\n\u001b[1;32m----> 2\u001b[0m \u001b[38;5;28;01mimport\u001b[39;00m \u001b[38;5;21;01mgEconpy\u001b[39;00m \u001b[38;5;28;01mas\u001b[39;00m \u001b[38;5;21;01mge\u001b[39;00m\n\u001b[0;32m      3\u001b[0m \u001b[38;5;28;01mimport\u001b[39;00m \u001b[38;5;21;01mgEcon\u001b[39;00m\u001b[38;5;21;01m.\u001b[39;00m\u001b[38;5;21;01mplotting\u001b[39;00m \u001b[38;5;28;01mas\u001b[39;00m \u001b[38;5;21;01mgp\u001b[39;00m\n\u001b[0;32m      4\u001b[0m \u001b[38;5;28;01mimport\u001b[39;00m \u001b[38;5;21;01mmatplotlib\u001b[39;00m\u001b[38;5;21;01m.\u001b[39;00m\u001b[38;5;21;01mpyplot\u001b[39;00m \u001b[38;5;28;01mas\u001b[39;00m \u001b[38;5;21;01mplt\u001b[39;00m\n",
+      "File \u001b[1;32m~\\miniconda3\\envs\\macro\\Lib\\site-packages\\gEconpy\\__init__.py:1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m \u001b[38;5;28;01mfrom\u001b[39;00m \u001b[38;5;21;01mgEconpy\u001b[39;00m \u001b[38;5;28;01mimport\u001b[39;00m (\n\u001b[0;32m      2\u001b[0m     classes,\n\u001b[0;32m      3\u001b[0m     estimation,\n\u001b[0;32m      4\u001b[0m     numba_tools,\n\u001b[0;32m      5\u001b[0m     parser,\n\u001b[0;32m      6\u001b[0m     plotting,\n\u001b[0;32m      7\u001b[0m     sampling,\n\u001b[0;32m      8\u001b[0m     shared,\n\u001b[0;32m      9\u001b[0m     solvers,\n\u001b[0;32m     10\u001b[0m )\n\u001b[0;32m     11\u001b[0m \u001b[38;5;28;01mfrom\u001b[39;00m \u001b[38;5;21;01mgEconpy\u001b[39;00m\u001b[38;5;21;01m.\u001b[39;00m\u001b[38;5;21;01mclasses\u001b[39;00m \u001b[38;5;28;01mimport\u001b[39;00m gEconModel\n\u001b[0;32m     12\u001b[0m \u001b[38;5;28;01mfrom\u001b[39;00m \u001b[38;5;21;01mgEconpy\u001b[39;00m\u001b[38;5;21;01m.\u001b[39;00m\u001b[38;5;21;01mshared\u001b[39;00m \u001b[38;5;28;01mimport\u001b[39;00m compile_to_statsmodels, make_mod_file\n",
+      "File \u001b[1;32m~\\miniconda3\\envs\\macro\\Lib\\site-packages\\gEconpy\\classes\\__init__.py:1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m \u001b[38;5;28;01mfrom\u001b[39;00m \u001b[38;5;21;01mgEconpy\u001b[39;00m\u001b[38;5;21;01m.\u001b[39;00m\u001b[38;5;21;01mclasses\u001b[39;00m\u001b[38;5;21;01m.\u001b[39;00m\u001b[38;5;21;01mmodel\u001b[39;00m \u001b[38;5;28;01mimport\u001b[39;00m gEconModel\n\u001b[0;32m      3\u001b[0m __all__ \u001b[38;5;241m=\u001b[39m [\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mgEconModel\u001b[39m\u001b[38;5;124m\"\u001b[39m]\n",
+      "File \u001b[1;32m~\\miniconda3\\envs\\macro\\Lib\\site-packages\\gEconpy\\classes\\model.py:47\u001b[0m\n\u001b[0;32m     45\u001b[0m \u001b[38;5;28;01mfrom\u001b[39;00m \u001b[38;5;21;01mgEconpy\u001b[39;00m\u001b[38;5;21;01m.\u001b[39;00m\u001b[38;5;21;01msolvers\u001b[39;00m\u001b[38;5;21;01m.\u001b[39;00m\u001b[38;5;21;01mgensys\u001b[39;00m \u001b[38;5;28;01mimport\u001b[39;00m interpret_gensys_output\n\u001b[0;32m     46\u001b[0m \u001b[38;5;28;01mfrom\u001b[39;00m \u001b[38;5;21;01mgEconpy\u001b[39;00m\u001b[38;5;21;01m.\u001b[39;00m\u001b[38;5;21;01msolvers\u001b[39;00m\u001b[38;5;21;01m.\u001b[39;00m\u001b[38;5;21;01mperturbation\u001b[39;00m \u001b[38;5;28;01mimport\u001b[39;00m PerturbationSolver\n\u001b[1;32m---> 47\u001b[0m \u001b[38;5;28;01mfrom\u001b[39;00m \u001b[38;5;21;01mgEconpy\u001b[39;00m\u001b[38;5;21;01m.\u001b[39;00m\u001b[38;5;21;01msolvers\u001b[39;00m\u001b[38;5;21;01m.\u001b[39;00m\u001b[38;5;21;01msteady_state\u001b[39;00m \u001b[38;5;28;01mimport\u001b[39;00m SteadyStateSolver\n\u001b[0;32m     49\u001b[0m VariableType \u001b[38;5;241m=\u001b[39m Union[sp\u001b[38;5;241m.\u001b[39mSymbol, TimeAwareSymbol]\n\u001b[0;32m     52\u001b[0m \u001b[38;5;28;01mclass\u001b[39;00m \u001b[38;5;21;01mgEconModel\u001b[39;00m:\n",
+      "File \u001b[1;32m~\\miniconda3\\envs\\macro\\Lib\\site-packages\\gEconpy\\solvers\\steady_state.py:7\u001b[0m\n\u001b[0;32m      5\u001b[0m \u001b[38;5;28;01mimport\u001b[39;00m \u001b[38;5;21;01mnumpy\u001b[39;00m \u001b[38;5;28;01mas\u001b[39;00m \u001b[38;5;21;01mnp\u001b[39;00m\n\u001b[0;32m      6\u001b[0m \u001b[38;5;28;01mimport\u001b[39;00m \u001b[38;5;21;01msympy\u001b[39;00m \u001b[38;5;28;01mas\u001b[39;00m \u001b[38;5;21;01msp\u001b[39;00m\n\u001b[1;32m----> 7\u001b[0m \u001b[38;5;28;01mfrom\u001b[39;00m \u001b[38;5;21;01mjoblib\u001b[39;00m \u001b[38;5;28;01mimport\u001b[39;00m Parallel, delayed\n\u001b[0;32m      8\u001b[0m \u001b[38;5;28;01mfrom\u001b[39;00m \u001b[38;5;21;01mscipy\u001b[39;00m \u001b[38;5;28;01mimport\u001b[39;00m optimize\n\u001b[0;32m     10\u001b[0m \u001b[38;5;28;01mfrom\u001b[39;00m \u001b[38;5;21;01mgEconpy\u001b[39;00m\u001b[38;5;21;01m.\u001b[39;00m\u001b[38;5;21;01mclasses\u001b[39;00m\u001b[38;5;21;01m.\u001b[39;00m\u001b[38;5;21;01mcontainers\u001b[39;00m \u001b[38;5;28;01mimport\u001b[39;00m SymbolDictionary\n",
+      "\u001b[1;31mModuleNotFoundError\u001b[0m: No module named 'joblib'"
+     ]
+    }
+   ],
+   "source": [
+    "%matplotlib inline\n",
+    "import gEconpy as ge\n",
+    "import gEcon.plotting as gp\n",
+    "import matplotlib.pyplot as plt\n",
+    "import numpy as np\n",
+    "\n",
+    "import pandas as pd\n",
+    "import statsmodels.api as sm\n",
+    "\n",
+    "config = {\n",
+    "    'figure.figsize':(14,4),\n",
+    "    'figure.dpi':144,\n",
+    "    'figure.facecolor':'white',\n",
+    "    'axes.grid':True,\n",
+    "    'grid.linestyle':'--',\n",
+    "    'grid.linewidth':0.5,\n",
+    "    'axes.spines.top':False,\n",
+    "    'axes.spines.bottom':False,\n",
+    "    'axes.spines.left':False,\n",
+    "    'axes.spines.right':False\n",
+    "}\n",
+    "\n",
+    "plt.rcParams.update(config)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "83168b4c-d9c0-43df-86fb-94fa4985ea4e",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "KeyError",
+     "evalue": "'Y'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mKeyError\u001b[0m                                  Traceback (most recent call last)",
+      "File \u001b[1;32m~\\miniconda3\\envs\\macro\\Lib\\site-packages\\pandas\\core\\indexes\\base.py:3791\u001b[0m, in \u001b[0;36mIndex.get_loc\u001b[1;34m(self, key)\u001b[0m\n\u001b[0;32m   3790\u001b[0m \u001b[38;5;28;01mtry\u001b[39;00m:\n\u001b[1;32m-> 3791\u001b[0m     \u001b[38;5;28;01mreturn\u001b[39;00m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39m_engine\u001b[38;5;241m.\u001b[39mget_loc(casted_key)\n\u001b[0;32m   3792\u001b[0m \u001b[38;5;28;01mexcept\u001b[39;00m \u001b[38;5;167;01mKeyError\u001b[39;00m \u001b[38;5;28;01mas\u001b[39;00m err:\n",
+      "File \u001b[1;32mindex.pyx:152\u001b[0m, in \u001b[0;36mpandas._libs.index.IndexEngine.get_loc\u001b[1;34m()\u001b[0m\n",
+      "File \u001b[1;32mindex.pyx:181\u001b[0m, in \u001b[0;36mpandas._libs.index.IndexEngine.get_loc\u001b[1;34m()\u001b[0m\n",
+      "File \u001b[1;32mpandas\\_libs\\hashtable_class_helper.pxi:7080\u001b[0m, in \u001b[0;36mpandas._libs.hashtable.PyObjectHashTable.get_item\u001b[1;34m()\u001b[0m\n",
+      "File \u001b[1;32mpandas\\_libs\\hashtable_class_helper.pxi:7088\u001b[0m, in \u001b[0;36mpandas._libs.hashtable.PyObjectHashTable.get_item\u001b[1;34m()\u001b[0m\n",
+      "\u001b[1;31mKeyError\u001b[0m: 'Y'",
+      "\nThe above exception was the direct cause of the following exception:\n",
+      "\u001b[1;31mKeyError\u001b[0m                                  Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[57], line 2\u001b[0m\n\u001b[0;32m      1\u001b[0m \u001b[38;5;66;03m#Run the Augmented Dickey-Fuller test  to see if we need to adjust our data using logs due to stationary/non-stationary (N0:non-stationarity) \u001b[39;00m\n\u001b[1;32m----> 2\u001b[0m ADF_test_summary(df[\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mY\u001b[39m\u001b[38;5;124m'\u001b[39m])\n",
+      "File \u001b[1;32m~\\miniconda3\\envs\\macro\\Lib\\site-packages\\pandas\\core\\frame.py:3893\u001b[0m, in \u001b[0;36mDataFrame.__getitem__\u001b[1;34m(self, key)\u001b[0m\n\u001b[0;32m   3891\u001b[0m \u001b[38;5;28;01mif\u001b[39;00m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mcolumns\u001b[38;5;241m.\u001b[39mnlevels \u001b[38;5;241m>\u001b[39m \u001b[38;5;241m1\u001b[39m:\n\u001b[0;32m   3892\u001b[0m     \u001b[38;5;28;01mreturn\u001b[39;00m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39m_getitem_multilevel(key)\n\u001b[1;32m-> 3893\u001b[0m indexer \u001b[38;5;241m=\u001b[39m \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mcolumns\u001b[38;5;241m.\u001b[39mget_loc(key)\n\u001b[0;32m   3894\u001b[0m \u001b[38;5;28;01mif\u001b[39;00m is_integer(indexer):\n\u001b[0;32m   3895\u001b[0m     indexer \u001b[38;5;241m=\u001b[39m [indexer]\n",
+      "File \u001b[1;32m~\\miniconda3\\envs\\macro\\Lib\\site-packages\\pandas\\core\\indexes\\base.py:3798\u001b[0m, in \u001b[0;36mIndex.get_loc\u001b[1;34m(self, key)\u001b[0m\n\u001b[0;32m   3793\u001b[0m     \u001b[38;5;28;01mif\u001b[39;00m \u001b[38;5;28misinstance\u001b[39m(casted_key, \u001b[38;5;28mslice\u001b[39m) \u001b[38;5;129;01mor\u001b[39;00m (\n\u001b[0;32m   3794\u001b[0m         \u001b[38;5;28misinstance\u001b[39m(casted_key, abc\u001b[38;5;241m.\u001b[39mIterable)\n\u001b[0;32m   3795\u001b[0m         \u001b[38;5;129;01mand\u001b[39;00m \u001b[38;5;28many\u001b[39m(\u001b[38;5;28misinstance\u001b[39m(x, \u001b[38;5;28mslice\u001b[39m) \u001b[38;5;28;01mfor\u001b[39;00m x \u001b[38;5;129;01min\u001b[39;00m casted_key)\n\u001b[0;32m   3796\u001b[0m     ):\n\u001b[0;32m   3797\u001b[0m         \u001b[38;5;28;01mraise\u001b[39;00m InvalidIndexError(key)\n\u001b[1;32m-> 3798\u001b[0m     \u001b[38;5;28;01mraise\u001b[39;00m \u001b[38;5;167;01mKeyError\u001b[39;00m(key) \u001b[38;5;28;01mfrom\u001b[39;00m \u001b[38;5;21;01merr\u001b[39;00m\n\u001b[0;32m   3799\u001b[0m \u001b[38;5;28;01mexcept\u001b[39;00m \u001b[38;5;167;01mTypeError\u001b[39;00m:\n\u001b[0;32m   3800\u001b[0m     \u001b[38;5;66;03m# If we have a listlike key, _check_indexing_error will raise\u001b[39;00m\n\u001b[0;32m   3801\u001b[0m     \u001b[38;5;66;03m#  InvalidIndexError. Otherwise we fall through and re-raise\u001b[39;00m\n\u001b[0;32m   3802\u001b[0m     \u001b[38;5;66;03m#  the TypeError.\u001b[39;00m\n\u001b[0;32m   3803\u001b[0m     \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39m_check_indexing_error(key)\n",
+      "\u001b[1;31mKeyError\u001b[0m: 'Y'"
+     ]
+    }
+   ],
+   "source": [
+    "#Run the Augmented Dickey-Fuller test  to see if we need to adjust our data using logs due to stationary/non-stationary (N0:non-stationarity) \n",
+    "ADF_test_summary(df['Y'])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "2d6f07db-606b-4712-b31e-33bae041ada9",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "+----------------------+---------------------+------------------------+\n",
+      "|      Statistic       |   Original Series   | Log-Transformed Series |\n",
+      "+----------------------+---------------------+------------------------+\n",
+      "|    ADF Statistic     | -2.2334914595457325 |   -2.791125939238542   |\n",
+      "|       p-value        |  0.1943152570602683 |  0.05955258781075299   |\n",
+      "| Critical Value (1%)  | -3.5778480370438146 |   -3.560242358792829   |\n",
+      "| Critical Value (10%) | -2.6007735310095064 |  -2.5967964150943397   |\n",
+      "| Critical Value (5%)  |  -2.925338105429433 |    -2.9178502070837    |\n",
+      "+----------------------+---------------------+------------------------+\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Run the Dickey-Fuller test  to see if we need to adjust our data using logs due to stationary/non-stationary\n",
+    "# Import necessary libraries\n",
+    "from pandas import read_csv\n",
+    "from statsmodels.tsa.stattools import adfuller\n",
+    "import numpy as np\n",
+    "from prettytable import PrettyTable\n",
+    "# Read the CSV file\n",
+    "series = read_csv('SA_gdp_seasonally_adjusted.csv', header=0, index_col=0)\n",
+    "# Original time series\n",
+    "X_original = series.values\n",
+    "# Log-transformed time series\n",
+    "X_log = np.log(df1.Yt)\n",
+    "# Run the Dickey-Fuller test for the original time series\n",
+    "result_original = adfuller(X_original)\n",
+    "# Run the Dickey-Fuller test for the log-transformed time series\n",
+    "result_log = adfuller(X_log)\n",
+    "# Create a PrettyTable for the comparison\n",
+    "comparison_table = PrettyTable()\n",
+    "comparison_table.field_names = [\"Statistic\", \"Original Series\", \"Log-Transformed Series\"]\n",
+    "comparison_table.add_row([\"ADF Statistic\", result_original[0], result_log[0]])\n",
+    "comparison_table.add_row([\"p-value\", result_original[1], result_log[1]])\n",
+    "# Find the common keys for critical values\n",
+    "common_keys = set(result_original[4].keys()).intersection(result_log[4].keys())\n",
+    "# Add critical values to the table\n",
+    "for key in common_keys:\n",
+    "    comparison_table.add_row([f\"Critical Value ({key})\", result_original[4][key], result_log[4][key]])\n",
+    "# Print the comparison table\n",
+    "print(comparison_table)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6a589788-281b-4f6a-95a7-4750b0519500",
+>>>>>>> origin/main
+   "metadata": {},
+   "outputs": [],
+   "source": [
+<<<<<<< HEAD
+    "#df1 currency conversion\n",
+    "df1_cur['YT_USD'] = df1_cur['Yt']/df1_cur['Ex_Rate']\n",
+    "df1_cur"
+=======
+    "##### The log-transformed time series, with a more negative ADF Statistic (-2.791) and a lower p-value (0.059) compared to the original series (-2.233 and 0.194), exhibits more compelling indications of stationarity. Given these Fuller test results, we opt for the log-transformed data for further analysis."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "657216f9-aa70-43b3-bb7e-f7900391400a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'pandas.core.frame.DataFrame'>\n",
+      "DatetimeIndex: 55 entries, 2010-01-01 to 2023-07-01\n",
+      "Data columns (total 1 columns):\n",
+      " #   Column  Non-Null Count  Dtype  \n",
+      "---  ------  --------------  -----  \n",
+      " 0   Yt      55 non-null     float64\n",
+      "dtypes: float64(1)\n",
+      "memory usage: 880.0 bytes\n"
+     ]
+    }
+   ],
+   "source": [
+    "df1.info()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1c307dfb-3d66-40f6-8d27-63091db4c14c",
+   "metadata": {},
+   "source": [
+    "##### 1.5) Currency Conversion"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "81ac49d5-f4d8-4cef-9aa3-6f626581b1e4",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'us_saudi' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[27], line 2\u001b[0m\n\u001b[0;32m      1\u001b[0m \u001b[38;5;66;03m# the actual time serie for US dollars-Riyal exchange rate has a monthly frequently, we want it quarterly \u001b[39;00m\n\u001b[1;32m----> 2\u001b[0m us_saudi_q \u001b[38;5;241m=\u001b[39m us_saudi\u001b[38;5;241m.\u001b[39mresample(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mQ\u001b[39m\u001b[38;5;124m'\u001b[39m)\u001b[38;5;241m.\u001b[39mmean()\n\u001b[0;32m      3\u001b[0m us_saudi_q\u001b[38;5;241m.\u001b[39mreset_index(inplace\u001b[38;5;241m=\u001b[39m\u001b[38;5;28;01mTrue\u001b[39;00m)\n\u001b[0;32m      4\u001b[0m \u001b[38;5;28mprint\u001b[39m(us_saudi_q\u001b[38;5;241m.\u001b[39mhead())\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'us_saudi' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "# the actual time serie for US dollars-Riyal exchange rate has a monthly frequently, we want it quarterly \n",
+    "us_saudi_q = us_saudi.resample('Q').mean()\n",
+    "us_saudi_q.reset_index(inplace=True)\n",
+    "print(us_saudi_q.head())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9e5dbbe3-e705-4071-8c01-002c4f579d50",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Import necessary libraries\n",
+    "import pandas as pd\n",
+    "import pandas_datareader as pdr\n",
+    "# Import data for US dollar-Saudi Riyal Exchange rate\n",
+    "#series_code = 'SAUCCUSMA02STM'\n",
+    "#us_saudi = pdr.get_data_fred(series_code)\n",
+    "from pandas_datareader.fred import FredReader\n",
+    "data_cur = FredReader(symbols=['SAUCCUSMA02STM'], start='1960', end=None).read()\n",
+    "data_cur.to_csv('SA_currency_exch.csv')\n",
+    "data_cur = pd.read_csv('SA_currency_exch.csv', parse_dates=['DATE'])\n",
+    "# Rename the columns\n",
+    "#data_cur.columns = ['Date', 'ExRate']\n",
+    "data_cur.to_csv('SA_currency_exch.csv', index=False)\n",
+    "data_cur.rename(columns={'DATE': 'Date', 'SAUCCUSMA02STM': 'Ex_Rate'}, inplace=True)\n",
+    "# Rename columns\n",
+    "#data_cur = us_saudi.rename(columns={'SAUCCUSMA02STM': 'us_saudi_ER'})\n",
+    "data_cur.info"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "df22f36c-f520-47f7-ab64-8ab900b0bfb0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "### last step merge all df frames\n",
+    "# Merge the first two DataFrames on the 'Date' column\n",
+    "df1_cur = pd.merge(df1, data_cur, on='Date')\n",
+    "\n",
+    "# Merge the result with the third DataFrame ('I_predict') on the 'Date' column\n",
+    "#df1_cur = pd.merge(df_merged, I_predict, on='Date')\n",
+    "df1_cur"
+   ]
+  },
+  {
+   "cell_type": "code",
    "execution_count": null,
    "id": "119a1edc-32fc-4211-b4ef-dcd2a86a35ab",
    "metadata": {},
@@ -1105,6 +1703,43 @@
     "#df1 currency conversion\n",
     "df1_cur['YT_USD'] = df1_cur['Yt']/df1_cur['Ex_Rate']\n",
     "df1_cur"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c70982b8-a399-44de-a9d2-710754891497",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [],
+   "source": [
+    "# Having our GDP data in Saudi Riyal, to switch to US dollar, we only have to proprerly multiply Yt (Saudi Riyal) for the given fixed exchange rate\n",
+    "# analyse the structure of the 2 datasets in question\n",
+    "print(\"df1:\")\n",
+    "print(df1.head())\n",
+    "print(\"\\nus_saudi_q:\")\n",
+    "print(us_saudi_q.head())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d654abe6-0df5-49b7-9864-b4ca4df87aff",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# create a merged table from the two FUCKKKKKKKKKIIIIIIIIITTTTTTTTT, im tired bye, and i still havent done french\n",
+    "df2 = pd.merge(df1, us_saudi_quarters, left_on='Date', right_on='DATE', how='inner')\n",
+    "#check if the columns have the same format\n",
+    "print(\"Data type of 'Date' in df1:\", df1['Date'].dtype)\n",
+    "print(\"Data type of 'Date' in us_saudi_quarters:\", us_saudi_q['DATE'].dtype)\n",
+    "\n",
+    "df1['Date'] = pd.to_datetime(df1['Date'])\n",
+    "us_saudi_q['DATE'] = pd.to_datetime(us_saudi_q['DATE'])\n",
+    "print(\"First few rows of df1:\", df1.head())\n",
+    "print(\"First few rows of us_saudi_qs:\", us_saudi_q.head())\n"
+>>>>>>> origin/main
    ]
   },
   {
@@ -1577,6 +2212,7 @@
    ]
   },
   {
+<<<<<<< HEAD
    "cell_type": "markdown",
    "id": "fa9be80a",
    "metadata": {},
@@ -1587,6 +2223,11 @@
   {
    "cell_type": "markdown",
    "id": "fb2d0c21",
+=======
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ba51fd1d-5000-432f-a566-def1bd3505ac",
+>>>>>>> origin/main
    "metadata": {},
    "source": [
     "###### No currency conversion needed, since data are already provided in US dollar units. "
@@ -1812,6 +2453,7 @@
     "#Rename 'year' column to 'Date'\n",
     "world_bank_data.rename(columns={'year': 'Date', 'NE.GDI.FTOT.CD': 'I'}, inplace=True)\n",
     "world_bank_data['Date'] = pd.to_datetime(world_bank_data['Date'])  # Fix: use 'year' instead of 'Date'\n",
+<<<<<<< HEAD
     "#Data are in USD, but for a better visualization and scale omogeneity, we want them in millions USD \n",
     "world_bank_data['I'] = world_bank_data['I'] / 1_000_000\n",
     "#Sort data so frequency runs correct \n",
@@ -1826,10 +2468,20 @@
    "metadata": {},
    "source": [
     "#### 3.2) Quarters' value prediction"
+=======
+    "\n",
+    "# sort data so frequency runs correct ########## REMEMBER\n",
+    "df3 = world_bank_data.copy().set_index('Date').sort_index()\n",
+    "df3.info()\n",
+    "\n",
+    "\n",
+    "\n"
+>>>>>>> origin/main
    ]
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 302,
    "id": "383ce0c1",
    "metadata": {},
@@ -1838,11 +2490,27 @@
     "from tsdisagg import disaggregate_series\n",
     "#create a disaggregate version of df3 to derive quarterly data from a yearly dataframe\n",
     "df3_resample= disaggregate_series(df3.I, target_freq='QS', agg_func='sum')"
+=======
+   "execution_count": null,
+   "id": "ced521d8-8620-4539-9923-1039abe4704e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "!pip install tsdisagg -q\n",
+    "from tsdisagg import disaggregate_series \n",
+    "#disaggregate_series(df3.I.resample('AS').sum(), target_freq='QS').plot()\n",
+    "# create \n",
+    "df3_resample = disaggregate_series(df3.I, target_freq='QS',agg_func='sum')"
+>>>>>>> origin/main
    ]
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 303,
+=======
+   "execution_count": null,
+>>>>>>> origin/main
    "id": "a83e8834-40fd-44e8-a251-58a9f1878933",
    "metadata": {
     "scrolled": true
@@ -1860,12 +2528,20 @@
     }
    ],
    "source": [
+<<<<<<< HEAD
     "#Resample data to fit quartelry framework: create quarter data from a yearly frequency dataframe\n",
     "#Plot the resampled data and original data\n",
     "df3_resample.plot(label= 'Resampled', marker='o', color= 'y')\n",
     "df3.I.resample('QS').asfreq().plot(label= 'Data', marker='o', color= 'b')\n",
     "plt.legend()\n",
     "plt.show()"
+=======
+    "### resample data to fit quartelry framework\n",
+    "\n",
+    "# Plot the resampled data and original data\n",
+    "df3_resample.plot(marker='o')\n",
+    "df3.I.resample('QS').asfreq().plot(marker='o')"
+>>>>>>> origin/main
    ]
   },
   {
@@ -4140,6 +4816,7 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 407,
    "id": "a48390de",
    "metadata": {},
@@ -4212,6 +4889,12 @@
      "output_type": "execute_result"
     }
    ],
+=======
+   "execution_count": null,
+   "id": "a48390de",
+   "metadata": {},
+   "outputs": [],
+>>>>>>> origin/main
    "source": [
     "#Manually import data, given the unavailability of alternative API/code solutions to include the rethrieved data for the Average Hours of Work for Employed Persons\n",
     "N_data = {\n",
@@ -4265,6 +4948,7 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 406,
    "id": "20885024-c258-428b-8995-4f76248680b8",
    "metadata": {},
@@ -4314,6 +4998,12 @@
      "output_type": "display_data"
     }
    ],
+=======
+   "execution_count": null,
+   "id": "20885024-c258-428b-8995-4f76248680b8",
+   "metadata": {},
+   "outputs": [],
+>>>>>>> origin/main
    "source": [
     "import matplotlib.pyplot as plt\n",
     "import pandas as pd\n",
@@ -5035,6 +5725,7 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 470,
    "id": "38dfef43-1c1a-47a3-bfe7-3c1cff36abcc",
    "metadata": {},
@@ -5107,7 +5798,12 @@
      "output_type": "execute_result"
     }
    ],
-
+=======
+   "execution_count": null,
+   "id": "38dfef43-1c1a-47a3-bfe7-3c1cff36abcc",
+   "metadata": {},
+   "outputs": [],
+>>>>>>> origin/main
    "source": [
     "#Manually import data, given the unavailability of alternative API/code solutions to include the rethrieved data for the Average Monthly Wages for Paid Employees\n",
     "w_data = {\n",
@@ -6062,13 +6758,13 @@
     "fig, ax = plt.subplots()\n",
     "\n",
     "base_irf.loc['I'].droplevel(1).plot(label='Base Model', legend=True, ax=ax)\n",
-    "for ϕ in [0, 2, 5]:\n",
-    "    capital_adj.free_param_dict.update({'phi':ϕ})\n",
+    "for Ï• in [0, 2, 5]:\n",
+    "    capital_adj.free_param_dict.update({'phi':Ï•})\n",
     "    capital_adj.steady_state(verbose=False)\n",
     "    capital_adj.solve_model(verbose=False)\n",
     "    cap_adj_irf = capital_adj.impulse_response_function(simulation_length=40, shock_size=0.1)\n",
-    "    cap_adj_irf.loc['I'].droplevel(1).plot(label=f'CAC, ϕ={ϕ}', ls='--' if ϕ == 0 else '-', legend=True, ax=ax)\n",
-    "ax.set_title('Investment IRF Under Different Values of ϕ\\nCapital Adjustment Cost Model')\n",
+    "    cap_adj_irf.loc['I'].droplevel(1).plot(label=f'CAC, Ï•={Ï•}', ls='--' if Ï• == 0 else '-', legend=True, ax=ax)\n",
+    "ax.set_title('Investment IRF Under Different Values of Ï•\\nCapital Adjustment Cost Model')\n",
     "plt.show()"
    ]
   },
@@ -6082,13 +6778,13 @@
     "# figure comparing tobins q\n",
     "fig, ax = plt.subplots()\n",
     "\n",
-    "for ϕ in [0, 2, 5]:\n",
-    "    capital_adj.free_param_dict.update({'phi':ϕ})\n",
+    "for Ï• in [0, 2, 5]:\n",
+    "    capital_adj.free_param_dict.update({'phi':Ï•})\n",
     "    capital_adj.steady_state(verbose=False)\n",
     "    capital_adj.solve_model(verbose=False)\n",
     "    cap_adj_irf = capital_adj.impulse_response_function(simulation_length=40, shock_size=0.1)\n",
-    "    cap_adj_irf.loc['Q'].droplevel(1).plot(label=f'CAC, ϕ={ϕ}', ls='--' if ϕ == 0 else '-', legend=True)\n",
-    "ax.set_title(\"Tobin's Q IRF Under Different Values of ϕ\\nCapital Adjustment Cost Model\")\n",
+    "    cap_adj_irf.loc['Q'].droplevel(1).plot(label=f'CAC, Ï•={Ï•}', ls='--' if Ï• == 0 else '-', legend=True)\n",
+    "ax.set_title(\"Tobin's Q IRF Under Different Values of Ï•\\nCapital Adjustment Cost Model\")\n",
     "plt.show()"
    ]
   },
@@ -6196,13 +6892,13 @@
     "fig, ax = plt.subplots()\n",
     "\n",
     "base_irf.loc['I'].droplevel(1).plot(label='Base Model', legend=True, ax=ax)\n",
-    "for ϕ in [0, 2, 5]:\n",
-    "    inv_adj.free_param_dict.update({'phi':ϕ})\n",
+    "for Ï• in [0, 2, 5]:\n",
+    "    inv_adj.free_param_dict.update({'phi':Ï•})\n",
     "    inv_adj.steady_state(verbose=False)\n",
     "    inv_adj.solve_model(verbose=False)\n",
     "    inv_adj_irf = inv_adj.impulse_response_function(simulation_length=40, shock_size=0.1)\n",
-    "    inv_adj_irf.loc['I'].droplevel(1).plot(label=f'IAC, ϕ={ϕ}', ls='--' if ϕ == 0 else '-', legend=True, ax=ax)\n",
-    "ax.set_title('Investment IRF Under Different Values of ϕ\\Investment Adjustment Cost Model')\n",
+    "    inv_adj_irf.loc['I'].droplevel(1).plot(label=f'IAC, Ï•={Ï•}', ls='--' if Ï• == 0 else '-', legend=True, ax=ax)\n",
+    "ax.set_title('Investment IRF Under Different Values of Ï•\\Investment Adjustment Cost Model')\n",
     "plt.show()"
    ]
   },
@@ -6216,13 +6912,13 @@
     "# comparing tobins q\n",
     "fig, ax = plt.subplots()\n",
     "\n",
-    "for ϕ in [0, 2, 5]:\n",
-    "    inv_adj.free_param_dict.update({'phi':ϕ})\n",
+    "for Ï• in [0, 2, 5]:\n",
+    "    inv_adj.free_param_dict.update({'phi':Ï•})\n",
     "    inv_adj.steady_state(verbose=False)\n",
     "    inv_adj.solve_model(verbose=False)\n",
     "    inv_adj_irf = inv_adj.impulse_response_function(simulation_length=40, shock_size=0.1)\n",
-    "    inv_adj_irf.loc['Q'].droplevel(1).plot(label=f'CAC, ϕ={ϕ}', ls='--' if ϕ == 0 else '-', legend=True)\n",
-    "ax.set_title(\"Tobin's Q IRF Under Different Values of ϕ\\nInvestment Adjustment Cost Model\")\n",
+    "    inv_adj_irf.loc['Q'].droplevel(1).plot(label=f'CAC, Ï•={Ï•}', ls='--' if Ï• == 0 else '-', legend=True)\n",
+    "ax.set_title(\"Tobin's Q IRF Under Different Values of Ï•\\nInvestment Adjustment Cost Model\")\n",
     "plt.show()"
    ]
   },
