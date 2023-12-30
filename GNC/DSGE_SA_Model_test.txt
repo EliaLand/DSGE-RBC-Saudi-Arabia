@@ -29,8 +29,8 @@ block CONSUMER
 	
     constraints
     {
-        P_y[] * (I[] + C[]) = Div[] + r[] * K_s[-1] + W[] * L_s[] + P_Oil[] * Oil[]: lambda[]; ///// P_y is aggregated price index ///////////////
-		I[] = K_s[] - (1 - delta) * K_s[-1] : Q[];                            //// P_Oil[] * Oil[] = is this oil revenue? ///// 
+        P_y[] * (I[] + C[]) = Div[] + r[] * K_s[-1] + W[] * L_s[] + P_Oil[] * Oil[]: lambda[];
+		I[] ~ d(type=, params=) = K_s[] - (1 - delta) * K_s[-1] : Q[]  //// P_Oil[] * Oil[] = is this oil revenue? ///// 
     };
 	
     calibration
@@ -63,7 +63,7 @@ block Y_FIRM
     constraints
     {
         VA_y[] = shock_y[] * K_y_d[] ^ alpha_VA_y * L_y_d[] ^ (1 - alpha_VA_y) : mc_VA_y[]; //////// WHY DIVIDE BY MC? //////// ONLY FIRM Y NOT CONSIDERING FIRM X PRODUCT YET? 
-		Y[]  = VA_y[] ^ alpha_y * X_d[] ^ (1 - alpha_y) : P_y[];  /// OUTPUT = VA * X_d /// VA multiplied by quantity of goods recieved by firm X 
+		Y[] ~ d(type=, params=) = VA_y[] ^ alpha_y * X_d[] ^ (1 - alpha_y) : P_y[]; /// OUTPUT = VA * X_d /// VA multiplied by quantity of goods recieved by firm X 
     };
 		
     calibration
@@ -87,7 +87,8 @@ block X_FIRM   ///// SUPPLIES OIL = X_s
 	
 	objective
 	{
-		Div_x[] = X_s[] + TC_x[];  /// PROFITS = QUANTITY OF OIL SUPPLIED TO FIRM Y (BY FIRM X) MINUS TOTAL COST - CHANGE THIS TO MINUS //// 
+		Div_x[] ~ d(type=, params=) = X_s[] + TC_x[];
+  /// PROFITS = QUANTITY OF OIL SUPPLIED TO FIRM Y (BY FIRM X) MINUS TOTAL COST - CHANGE THIS TO MINUS //// 
 	};
 	
 	constraints
